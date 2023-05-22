@@ -229,3 +229,13 @@ for (let i = 0; i < 101; i++){
     console.log(i)
   }
 }
+
+let garrett = true;
+let trina = true;
+if(garrett && trina){
+  console.log("They both sexy beasts!")
+} else {
+  console.log("i was to lazy to create something else.")
+}
+
+for(i=0;i<100;)console.log((++i%3?'':'dev')+(i%5?'':'mountain')||i)
